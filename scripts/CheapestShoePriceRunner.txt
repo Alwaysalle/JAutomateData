@@ -1,0 +1,3 @@
+WaitMouseMove "{ImageFolder}/1460458021185.png" 59 75
+WaitVerify "{ImageFolder}/1460452913692.png" 0 0 112 137
+Click "{ImageFolder}/1460452949880.png" 4 96 23 7

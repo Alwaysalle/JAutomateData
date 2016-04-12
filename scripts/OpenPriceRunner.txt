@@ -1,0 +1,2 @@
+StartWeb "http://www.pricerunner.se"
+WaitVerify "{ImageFolder}/1460450046744.png" 0 0 283 73

@@ -1,0 +1,11 @@
+Begin "Settings"
+	AnimateCursor No
+	WaitStableScreen Yes
+End
+Call scripts/OpenPriceRunner.txt
+Call scripts/SearchOnPriceRunner.txt
+Call "scripts/CheapestShoePriceRunner.txt"
+Timestamp
+Set Date "{Timestamp}"
+Log "scripts/log.csv" , "Date"  "Application"
+Log "/Users/Alicia/Desktop/JAutomateData/scripts/log.csv" , "{Date}"  " PriceRunner"

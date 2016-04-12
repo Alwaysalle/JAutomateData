@@ -1,0 +1,12 @@
+Write "Stan Smith adidas [ENTER]"
+WaitVerify "{ImageFolder}/1460450751862.png" 7 49 181 34
+MouseScroll -20
+Click "{ImageFolder}/1460451565007.png" 2 69 228 23
+WaitVerify "{ImageFolder}/1460451584742.png" 11 4 100 26
+Click "{ImageFolder}/1460451610758.png" 5 12
+WaitVerify "{ImageFolder}/1460452019438.png" 0 7 287 36
+MouseScroll -20
+Click "{ImageFolder}/1460452137633.png" 4 98 220 14
+WaitVerify "{ImageFolder}/1460452164209.png" 28 130 27 13
+Click "{ImageFolder}/1460452181057.png" 9 85
+WaitVerify "{ImageFolder}/1460452375327.png"
